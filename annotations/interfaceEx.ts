@@ -24,6 +24,9 @@ const printVehicle = (vehicle: vehicle): void => {
     // console.log(`isBroken: ${vehicle.isBroken}`);
     // console.log(`isBroken: ${vehicle.noOfGear}`);
     // console.log(`isBroken: ${vehicle.isSafety}`);
+    console.log("vehicle.summary('heloo')");
+    console.log(vehicle.summary('heloo'));
+    // console.log(vehicle.summary({}));
     console.log(vehicle.summary('heloo'));
 };
 

@@ -1,0 +1,16 @@
+things to know
+Type Inference
+Type Annotation
+
+
+Built in types
+Void, Null and Undefined, Never, Any
+Control flow
+default parameters
+strict null check;
+let a: HTMLElement = document.getElementById('element_id')!;
+
+no implicit any
+let a:any = 8;
+
+implementation of typescript in arrow function

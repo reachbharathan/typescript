@@ -6,7 +6,7 @@ const profile = {
         lat: 20,
         long: 30
     },
-    setAge: function(dob){
+    setAge: function (dob: number) {
         this.age = 2020 - dob;
     }
 }
@@ -14,11 +14,13 @@ const profile = {
 console.log(profile.setAge(1989));
 console.log(profile.age);
 
-const {age} : {age:number} = profile;
-const {corordinates} : {corordinates: {
-    lat:number,
-    long:number
-}}= profile;
+const { age }: { age: number } = profile;
+const { corordinates }: {
+    corordinates: {
+        lat: number,
+        long: number
+    }
+} = profile;
 console.log("Age is " + age)
 console.log("Age i1 " + corordinates.lat);
 console.log("Age i2 " + corordinates.long);

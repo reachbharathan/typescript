@@ -5,9 +5,9 @@ let ageOfKids: number[] = [1, 2, 4, 5, 6];
 let names: string[] = ['bharatha', 'karthiga', 'karthik'];
 
 //class
-class Person {}
+class Person1 {}
 
-let personB: Person = new Person();
+let person1B: Person1 = new Person1();
 
 let dummyObject: { age: number; name: string } = {
   age: 10,
