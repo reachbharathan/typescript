@@ -9,6 +9,8 @@ function sayGreeting(greetingMsg: string = "Hello "): void {
 sayGreeting();
 sayGreeting("Good morning");
 
+let data=1;
+let temp1 = data/100;
 
 
 function logName(name) {

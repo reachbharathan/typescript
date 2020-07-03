@@ -50,5 +50,10 @@ import { v4 } from "uuid";
 // console.log("healthPoints");
 // console.log(healthPoints);
 
-const startTimestamp = moment(Date.now()).subtract(89, "days").startOf("day").format("YYYY-MM-DDTHH:mm:ssZ");
-console.log(startTimestamp);
+// const startTimestamp = moment("2019-12-01T08:00:00+08:00").subtract(89, "days").startOf("day").format("YYYY-MM-DDTHH:mm:ssZ");
+
+let currentTime = moment("2019-12-01T08:00:00+08:00");
+let expiresAtTime = currentTime.clone().add(7, "month").startOf("month").toDate();
+// console.log(currentTime.clone().add(7,"month").toDate());
+console.log(currentTime.toDate());
+console.log(expiresAtTime);

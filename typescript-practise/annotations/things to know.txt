@@ -14,3 +14,4 @@ no implicit any
 let a:any = 8;
 
 implementation of typescript in arrow function
+types structural type system

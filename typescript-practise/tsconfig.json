@@ -66,5 +66,10 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true/* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "files": [
+    "./*.ts",
+    "./**/*.ts",
+  ]
+
 }
