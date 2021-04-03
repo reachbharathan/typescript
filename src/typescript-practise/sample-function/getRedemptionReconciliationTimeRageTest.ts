@@ -1,4 +1,4 @@
-import cronParser from "cron-parser";
+wimport cronParser from "cron-parser";
 import moment from "moment";
 
 export interface TimeRange {
